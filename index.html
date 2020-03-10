@@ -4,9 +4,36 @@
 <title>아이돌 백과사전 - 걸그룹</title>
 <meta charset="utf-8">
 <style>
+#big{
+  color:pink;
+}
+#grid{
+  display:grid;
+  grid-template-columns:150px 1fr;
+}
+#grid #article {
+  padding-left:15px;
+}
 a{
   color:black;
   text-decoration:none;
+}
+h1 {
+  font-size:50px;
+  text-align:center;
+  border-bottom:2px solid black;
+  padding:20px;
+  margin:0;
+}
+#grid ol {
+  border-right:2px solid black;
+  width:100px;
+  margin:0;
+  padding:20px;
+  padding-left:33px;
+}
+body {
+  margin:0;
 }
 </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -21,12 +48,14 @@ a{
 
 </head>
 <body>
-  <h1><a href="index.html" style="color:red;text-decoration:underline">걸그룹</a></h1>
+  <h1><a href="index.html" id="big">걸그룹</a></h1>
+<div id="grid">
 <ol>
   <li><strong><a href="1.html">아이즈원</a></strong></li>
   <li><strong><a href="2.html">트와이스</a></strong></li>
   <li><strong><a href="3.html">우주소녀</a></strong></li>
 </ol>
+<div id="article">
 <h2>걸그룹</h2>
 <p><strong><a href="https://namu.wiki/w/%EA%B1%B8%EA%B7%B8%EB%A3%B9" target="_blank" title="나무위키 - 걸그룹">여성으로 구성된 그룹형 가수들.</a></strong>
 남성 아이돌 그룹을 일컫는 보이그룹(Boy Group)와 함께 주로 외적인 퍼포먼스를 중심으로 활동하는 아이돌 그룹을 뜻하는 용어다. 한국 음반 시장의 한 축을 차지하고 있는 음악 장르이기도 하다.
@@ -40,5 +69,7 @@ a{
 최근에는 피프스 하모니가 새로운 세계 걸그룹 강자로 떠오르고 있다. X Factor UK 시즌 8 우승자인 리틀 믹스도 인기가 많다.
 그러나 2019년 피프스 하모니는 인기 멤버인 카밀라 카베요가 탈퇴하며 인기가 하락하다 활동이 중단됐고 리틀믹스는 사실상 영국 한정 걸그룹이 되었다.
 최근에는 K-POP걸그룹도 전 세계적으로 많은 인기를 얻고 있다.</p>
+</div>
+</div>
 </body>
 </html>
